@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
-  const whatsappNumber = "919061400119"
+  const whatsappNumber = "919061400114"
   const whatsappMessage = "Hi! I'm interested in your collection. Could you please share more details?"
 
   return (
@@ -38,7 +38,7 @@ export default function HomePage() {
               <span className="hidden sm:inline">WhatsApp</span>
             </a>
             <a
-              href={`tel:+91 90614 00119`}
+              href={`tel:+91 90614 00114`}
               className="bg-pastel-lavender hover:bg-purple-300 text-purple-800 px-4 py-2 rounded-full flex items-center gap-2 transition-colors"
               aria-label="Call us"
             >
@@ -181,14 +181,33 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <div className="flex items-start gap-4">
+                <div className="bg-pastel-mint rounded-full p-3">
+                  <MapPin className="w-6 h-6 text-pink-700" />
+                </div>
+                <div>
+                  <h4 className="text-xl font-semibold text-gray-800 mb-2">Retail Store</h4>
+                  <p className="text-gray-600 leading-relaxed">
+                    3rd Floor, Oberon Mall<br />
+                    Edapally, Kerala
+                  </p>
+                  <span className="inline-block bg-pastel-mint px-3 py-1 rounded-full text-pink-800 text-sm font-medium mt-3">
+                    Retail Shopping
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-2xl p-8 shadow-lg">
+              <div className="flex items-start gap-4">
                 <div className="bg-pastel-pink rounded-full p-3">
                   <MapPin className="w-6 h-6 text-pink-700" />
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold text-gray-800 mb-2">Retail Store</h4>
                   <p className="text-gray-600 leading-relaxed">
-                    3rd Floor, Retail KMK Complex<br />
-                    HMT Road, Kalamassery
+                    KMK Complex<br />
+                    HMT Road, Kalamassery, Kerala
                   </p>
                   <span className="inline-block bg-pastel-pink px-3 py-1 rounded-full text-pink-800 text-sm font-medium mt-3">
                     Retail Shopping
@@ -286,10 +305,10 @@ export default function HomePage() {
               className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors flex items-center justify-center gap-3 shadow-lg"
             >
               <MessageCircle className="w-5 h-5" />
-              WhatsApp Us: +91 90614 00119
+              WhatsApp Us: +91 90614 00114
             </a>
             <a
-              href={`tel:+91 90614 00119`}
+              href={`tel:+91 90614 00114`}
               className="bg-white border-2 border-purple-300 hover:bg-purple-50 text-purple-700 px-8 py-4 rounded-full font-semibold text-lg transition-colors flex items-center justify-center gap-3"
             >
               <Phone className="w-5 h-5" />
@@ -331,17 +350,16 @@ export default function HomePage() {
             <div>
               <h5 className="text-lg font-semibold mb-4">Contact Info</h5>
               <div className="space-y-2 text-gray-300">
-                <p>📱 WhatsApp: +91 90614 00119</p>
-                <p>📞 Phone: +91 90614 00119</p>
-                <p>📧 Email: info@hollywoodcollections.com</p>
+                <p>📱 WhatsApp: +91 90614 00114</p>
+                <p>📞 Phone: +91 90614 00114</p>
+                <p>📧 Email: hollywoodcollectionsoberon@gmail.com</p>
               </div>
             </div>
 
             <div>
               <h5 className="text-lg font-semibold mb-4">Store Hours</h5>
               <div className="space-y-2 text-gray-300">
-                <p>Monday - Saturday: 10:00 AM - 8:00 PM</p>
-                <p>Sunday: 11:00 AM - 7:00 PM</p>
+                <p>Monday - Sunday: 10:00 AM - 10:00 PM</p>
               </div>
             </div>
           </div>
