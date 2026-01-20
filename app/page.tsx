@@ -167,75 +167,84 @@ export default function HomePage() {
       </section>
 
       {/* Store Locations */}
-      <section className="py-16 px-4 bg-white/50">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Visit Our Stores
-            </h3>
-            <p className="text-gray-600 text-lg">
-              Experience our collection in person
-            </p>
+<section className="py-16 px-4 bg-white/50">
+  <div className="max-w-6xl mx-auto">
+    <div className="text-center mb-12">
+      <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        Visit Our Stores
+      </h3>
+      <p className="text-gray-600 text-lg">
+        Experience our collection in person
+      </p>
+    </div>
+
+    <div className="grid md:grid-cols-3 gap-8">
+      {/* Oberon Mall */}
+      <div className="bg-white rounded-2xl p-8 shadow-lg">
+        <div className="flex items-start gap-4">
+          <div className="bg-pastel-mint rounded-full p-3">
+            <MapPin className="w-6 h-6 text-pink-700" />
           </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="flex items-start gap-4">
-                <div className="bg-pastel-mint rounded-full p-3">
-                  <MapPin className="w-6 h-6 text-pink-700" />
-                </div>
-                <div>
-                  <h4 className="text-xl font-semibold text-gray-800 mb-2">Retail Store</h4>
-                  <p className="text-gray-600 leading-relaxed">
-                    3rd Floor, Oberon Mall<br />
-                    Edapally, Kerala
-                  </p>
-                  <span className="inline-block bg-pastel-mint px-3 py-1 rounded-full text-pink-800 text-sm font-medium mt-3">
-                    Retail Shopping
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="flex items-start gap-4">
-                <div className="bg-pastel-pink rounded-full p-3">
-                  <MapPin className="w-6 h-6 text-pink-700" />
-                </div>
-                <div>
-                  <h4 className="text-xl font-semibold text-gray-800 mb-2">Retail Store</h4>
-                  <p className="text-gray-600 leading-relaxed">
-                    KMK Complex<br />
-                    HMT Road, Kalamassery, Kerala
-                  </p>
-                  <span className="inline-block bg-pastel-pink px-3 py-1 rounded-full text-pink-800 text-sm font-medium mt-3">
-                    Retail Shopping
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <div className="flex items-start gap-4">
-                <div className="bg-pastel-lavender rounded-full p-3">
-                  <MapPin className="w-6 h-6 text-purple-700" />
-                </div>
-                <div>
-                  <h4 className="text-xl font-semibold text-gray-800 mb-2">Wholesale Store</h4>
-                  <p className="text-gray-600 leading-relaxed">
-                    DD Vastra Mahal<br />
-                    Ernakulam
-                  </p>
-                  <span className="inline-block bg-pastel-lavender px-3 py-1 rounded-full text-purple-800 text-sm font-medium mt-3">
-                    Wholesale Orders
-                  </span>
-                </div>
-              </div>
-            </div>
+          <div>
+            <h4 className="text-xl font-semibold text-gray-800 mb-2">
+              Retail Store
+            </h4>
+            <p className="text-gray-600 leading-relaxed">
+              3rd Floor, Oberon Mall<br />
+              Edapally, Kerala
+            </p>
+            <span className="inline-block bg-pastel-mint px-3 py-1 rounded-full text-pink-800 text-sm font-medium mt-3">
+              Retail Shopping
+            </span>
           </div>
         </div>
-      </section>
+      </div>
+
+      {/* Kalamassery */}
+      <div className="bg-white rounded-2xl p-8 shadow-lg">
+        <div className="flex items-start gap-4">
+          <div className="bg-pastel-pink rounded-full p-3">
+            <MapPin className="w-6 h-6 text-pink-700" />
+          </div>
+          <div>
+            <h4 className="text-xl font-semibold text-gray-800 mb-2">
+              Retail Store
+            </h4>
+            <p className="text-gray-600 leading-relaxed">
+              KMK Complex<br />
+              HMT Road, Kalamassery, Kerala
+            </p>
+            <span className="inline-block bg-pastel-pink px-3 py-1 rounded-full text-pink-800 text-sm font-medium mt-3">
+              Retail Shopping
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Wholesale */}
+      <div className="bg-white rounded-2xl p-8 shadow-lg">
+        <div className="flex items-start gap-4">
+          <div className="bg-pastel-lavender rounded-full p-3">
+            <MapPin className="w-6 h-6 text-purple-700" />
+          </div>
+          <div>
+            <h4 className="text-xl font-semibold text-gray-800 mb-2">
+              Wholesale Store
+            </h4>
+            <p className="text-gray-600 leading-relaxed">
+              DD Vastra Mahal<br />
+              Ernakulam
+            </p>
+            <span className="inline-block bg-pastel-lavender px-3 py-1 rounded-full text-purple-800 text-sm font-medium mt-3">
+              Wholesale Orders
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Testimonials */}
       <section className="py-16 px-4">
