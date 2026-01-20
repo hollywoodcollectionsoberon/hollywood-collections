@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hollywood Collections - Premium Fashion Landing Page
 
 A modern, mobile-first landing page for Hollywood Collections, a premium ladies & kids textile business with 18+ years of experience in Kerala.
@@ -26,3 +27,7 @@ A modern, mobile-first landing page for Hollywood Collections, a premium ladies 
    ```bash
    git clone <repository-url>
    cd hollywood-collections
+=======
+# hollywood-collections
+Landing page for Hollywood Collections – Ladies &amp; Kids Wear
+>>>>>>> 4a83968c5f777898f2253b5d4035123c11abd57e
