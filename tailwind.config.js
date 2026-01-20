@@ -1,17 +1,12 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {
-      colors: {
-        pastel: {
-          pink: '#F8BBD9',
-          lavender: '#E4C1F9',
-          mint: '#A8E6CF',
-          peach: '#FFD3A5',
-          sky: '#A8E6E1',
-          cream: '#FFF2CC',
-        }
-      }
-    }
-  }
+    extend: {},
+  },
+  plugins: [],
 }
